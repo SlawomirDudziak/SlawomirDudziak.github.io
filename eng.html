@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
-    <title>Sławomir Dudziak</title>
+    <title>Slawomir Dudziak</title>
     <meta name="viewport" content="width=device-width, 
     initial-scale=1, maximum-scale=1, minimum-scale=1"/>
     <meta charset="UTF-8"/>
@@ -14,27 +14,27 @@
 </head>
 
 <body>
-    <button id="topBtn" title="Do góry">
+    <button id="topBtn" title="To the top">
         <i style='font-size:24px' class='fas'>&#xf062;</i>
     </button> 
 
     <section class="s1">
         <div class="main-container">
             <div class="greeting-wrapper">
-                <h1>Cześć, tu Sławomir</h1>
+                <h1>Hi, I'm Sławomir</h1>
             </div>
             <div class="intro-wrapper">
                 <div class="nav-wrapper">
                     <div id="navigation">
-                        <li><a id="navtech" href="#about-me">Technologie</a></li>
-                        <li><a id="navproj" href="#projects">Projekty</a></li>
-                        <li><a id="navhob" href="#hobbies">Zainteresowania</a></li>
+                        <li><a id="navtech" href="#about-me">Technologies</a></li>
+                        <li><a id="navproj" href="#projects">Projects</a></li>
+                        <li><a id="navhob" href="#hobbies">Interests</a></li>
                     </div>
                     
                     <div class="dots-wrapper">
-                        <a href="eng.html">
+                        <a href="index.html">
                             <div id="dot-1" class="browser-dot" >
-                                <img id="flag" src="img/Flag_of_the_United_Kingdom.svg" width="30px" height="15px" alt="flag_UK"/>
+                                <img id="flag" src="img/Flag_of_Poland.svg" width="30px" height="15px" alt="flag of Poland"/>
                             </div>
                         </a>
                     </div>
@@ -42,7 +42,7 @@
 
                 <div class="left-column">
                     <img id="profile-pic" src="img/zdjecie_20_25.jpg">
-                    <h5 style="text-align:center; line-height:0;">Zmień tło</h5>
+                    <h5 style="text-align:center; line-height:0;">Change theme</h5>
                     
                     <div id="theme-options-wrapper">
                         <div data-mode="light" id="light-mode" class="theme-dot"></div>
@@ -50,7 +50,7 @@
                         <div data-mode="green" id="green-mode" class="theme-dot"></div>
                         <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                     </div>
-                    <p id="settings-note">Tło zostanie zapisane jako<br>domyślne</p>
+                    <p id="settings-note">Theme settings will be saved as<br>default</p>
                 </div>
 
                 <div class="right-column">
@@ -76,12 +76,11 @@
             <div class="about-wrapper">
                 <div class="about-me">
                     <h4 id="aboutHeader">O mnie</h4>
-                    <p id="aboutParagraph">Rozwijam projekty w różnych technologiach, aby stale poszerzać wiedzę. Pasjonuję się programowaniem, ponieważ pomaga rozwiązywać problemy.</p>
-                    <!-- <p id="aboutParagraph2"></p> -->
+                    <p id="aboutParagraph">I develop projects in different technologies to constantly extend knowledge. I'm passionate about programming, because it helps to solve problems.</p>
 
                     <hr>
 
-                    <h4 id="aboutTech">Wykorzystywane technologie <br/>i języki programowania</h4>
+                    <h4 id="aboutTech">Used Technologies <br/>and programming languages</h4>
                     <!-- <p id="aboutJob"> Senior HTML developer
                          <a href="#" target="_blank">Pobierz CV</a>
                     </p> -->
@@ -113,20 +112,18 @@
 
     <section class="s1" id="projects">
         <div class="main-container">
-            <h3 style="text-align:center;">Wybrane projekty</h3>
+            <h3 style="text-align:center;">Selected projects</h3>
             
             <div class="post-wrapper">
                 <div>
                     <div class="post">
                         <img class= "thumbnail" src="img/flask-info.PNG">
                         <div class="post-preview">
-                            <h5 id="flaskHead" class="post-title">Aplikacja internetowa Flask</h5>
+                            <h5 id="flaskHead" class="post-title">Flask & Bootstrap Web App</h5>
                             <p id="flaskDesc" class="post-intro">
-                                Aplikacja internetowa powstała z wykorzystaniem technologii: HTML, CSS, JS, Bootstrap.
-                                Po stronie serwerowej został wykorzystany Flask - microframework Python.
-                                Aplikacja była częścią pracy inżynierskiej i została zaimplementowana na Raspberry Pi.
+                                Web App developed with use of following technologies: HTML, CSS, JS, Bootstrap. Backend site of project was Python microframework - Flask. App was part of engineering work and was deployed on Raspberry Pi locally and with external service dataplicity.io.
                             </p>
-                            <a class="read-more" href="https://github.com/SlawomirDudziak/water_sefety_flask">Zobacz kod</a>
+                            <a class="read-more" href="https://github.com/SlawomirDudziak/water_sefety_flask">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -135,17 +132,14 @@
                     <div class="post">
                         <div class="overlay">
                             <a href="#"><img class= "thumbnail" src="img/php-service.PNG"></a>
-                            <a href="http://panel-zarzadzania.j.pl/" class="link"><span class="see-project">Zobacz projekt</span></a>
+                            <a href="http://panel-zarzadzania.j.pl/" class="link"><span class="see-project">See project</span></a>
                         </div>
                         <div class="post-preview">
-                            <h5 id="phpHead" class="post-title">Panel zarządzania</h5>
+                            <h5 id="phpHead" class="post-title">Management panel</h5>
                             <p id="phpDesc" class="post-intro">
-                                Serwis internetowy PHP połączony z bazą danych mySQL.
-                                Strona wizualna została utworzona wykorzystując HTML, CSS i JS.
-                                Strona prezentuje m.in.: statyczną tabelę pobraną z bazy danych,
-                                interaktywną tabelę, obliczającą wartość zamówienia.
+                                PHP service with connection to mySQL database. Frontend site of project was created with HTML, CSS and JS. Site presents inter alia: static table from database, interactive table connected with database and interactive JS table calculating nett and gross values.
                             </p>
-                            <a class="read-more" href="https://github.com/SlawomirDudziak/panel_zarzadzania">Zobacz kod</a>
+                            <a class="read-more" href="https://github.com/SlawomirDudziak/panel_zarzadzania">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -154,12 +148,13 @@
                     <div class="post">
                         <div class="overlay">
                             <a href="#"><img class= "thumbnail" src="img/phones.PNG"></a>
-                            <a href="http://phones-db.j.pl" class="link"><span class="see-project">Zobacz projekt</span></a>
+                            <a href="http://phones-db.j.pl" class="link"><span class="see-project">See project</span></a>
                         </div>
                         <div class="post-preview">
                             <h5 class="post-title">PHP & Bootstrap CRUD</h5>
-                            <p class="post-intro">Aplikacja prezentuje produkty zawarte w bazie danych mySQL. Dostępne są możliwości dodania nowych produktów, edytowania, wyszukiwania oraz usuwania istniejących. Wykorzystane w projekcie technologie to: PHP, Bootstrap, mySQL.</p>
-                            <a class="read-more" href="https://github.com/SlawomirDudziak/phones_db">Zobacz kod</a>
+                            <p class="post-intro">App shows products which are taken from mySQL database. There are available options to add new products, search, edit and delete existing ones. Technologies used in project: PHP, Bootstrap, mySQL.
+                            </p>
+                            <a class="read-more" href="https://github.com/SlawomirDudziak/phones_db">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -169,31 +164,53 @@
 
     <section class="s2" id="hobbies">
         <div class="main-container">
-            <h3 style="text-align: center;">Zainteresowania</h3>
+            <h3 style="text-align: center;">Interests</h3>
 
             <div class="post-wrapper">
                 <div id="computers" class="post">
                     <div class="overlay">
                         <a href="#"><img class="thumbnail" src="img/komputer3.PNG" alt="komputery"></a>
-                        <a href="#" class="link"><span class="see-project">Komputery, montaż i testowanie</span></a>
+                        <a href="#" class="link"><span class="see-project">Computers, assembly and testing</span></a>
                     </div>
                 </div>
     
                 <div id="sports" class="post">
                     <div class="overlay">
                         <a href="#"><img class="thumbnail" src="img/sport.PNG" alt="sport"></a>
-                        <a href="#" class="link"><span class="see-project">Sport: boks, piłka nożna</span></a>
+                        <a href="#" class="link"><span class="see-project">Sport: boxing, football</span></a>
                     </div>
                 </div>
     
                 <div id="competition" class="post">
                     <div class="overlay">
                         <a href="#"><img class="thumbnail" src="img/programowanie.PNG" alt="tworzenie stron www"></a>
-                        <a href="#" class="link"><span class="see-project">Tworzenie stron internetowych, programowanie</span></a>
+                        <a href="#" class="link"><span class="see-project">Creating websites, programming</span></a>
                     </div>
                 </div>
             </div>
             
+        </div>
+    </section>
+
+    <section class="s1">
+        <div class="main-container">
+            <h3 id="contactHead" style="text-align: center;">Get in touch</h3>
+
+            <form id="contact-form">
+                <label id="form-firstname">First name:</label>
+                <input class="input-field" type="text" name="name">
+
+                <label id="form-lastname">Last name:</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label id="form-email">Mail:</label>
+                <input class="input-field" type="text" name="email">
+
+                <label id="form-message">Message:</label>
+                <textarea class="input-field" name="message"></textarea>
+
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
         </div>
     </section>
 
