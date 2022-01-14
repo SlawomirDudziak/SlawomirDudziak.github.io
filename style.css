@@ -56,6 +56,12 @@ ul {
     /* list-style: circle; */
 }
 
+.flex-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .s1 {
     background-color: var(--mainColor);
     border-bottom: 1px solid var(--borderColor);
@@ -352,6 +358,10 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
+}
+
+.read-more {
+    margin-bottom: 0;
 }
 
 #corner-br {
